@@ -46,7 +46,10 @@ public class Calculator {
 			d = calc.divide(a, b);
 		} else { 
 			System.out.println("Invalid character");
+			d = 0;
 		}
+		
+		System.out.println(d);
 		
 		
 		
